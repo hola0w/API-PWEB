@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "nodemon API/src/index.js --exec babel-node",
     "start": "node functions/api.js",
-    "build": "babel API/src -d functions",
-    "postinstall": "npm run build"
+   
+    "postinstall": "npm run build",
+    "build": "babel src -d functions && cp src/config.js functions/"
   },
   "keywords": [],
   "author": "",

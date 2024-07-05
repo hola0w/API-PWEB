@@ -1,4 +1,4 @@
-import {getconexion, sql} from "../BaseDatos/conexion";
+import {getconexion, sql} from "../../BaseDatos/conexion";
 
 export const getproduct = async (req, res) => {
 

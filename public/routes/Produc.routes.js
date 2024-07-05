@@ -2,9 +2,9 @@ import { Router } from "express";
 import {NewProducts, getproduct} from "../controlles/Produc.Control";
 const router = Router();
 
-router.get('./netlify/function/server', getproduct );
+router.get('/', getproduct );
 
-router.post('/products', NewProducts );
+router.post('/', NewProducts );
 
 router.get('/products',  );
 
