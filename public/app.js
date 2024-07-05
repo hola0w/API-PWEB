@@ -20,5 +20,5 @@ if (process.env.NODE_ENV === 'development') {
   });
 }
 
-// Export handler for serverless use
+// Export handler for serverless  use
 export const handler = serverless(app);
